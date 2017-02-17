@@ -36,7 +36,6 @@ class DepthFirstSearch{
 			while( i.hasNext()){
 				int n = i.next();
 				if(!visited[n]){
-					visited[n]=true;
 					DFSHelper(n,visited);
 				}
 				}
